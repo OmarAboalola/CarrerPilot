@@ -1,0 +1,42 @@
+# Local credentials and application state
+.env
+.env.*
+!.env.example
+data/
+.demo-data/
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.enc
+*.key
+credentials*.json
+client_secret*.json
+token*.json
+
+# Reproducible environments and caches
+.venv/
+.conda/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.test-tmp/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# Local artifacts and editor state
+work/
+outputs/
+*.log
+*.tmp
+*.bak
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
